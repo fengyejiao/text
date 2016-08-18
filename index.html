@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<link href="style/all.css" rel="stylesheet" type="text/css">
+<script src="script/com.js"></script>
+<script>
+window.onload = function (){
+	var timer = null;
+//图片影现
+function sil(){
+	var ph = document.getElementById('ph');
+	timer = setTimeout(function(){
+		opacity(ph,10,100,50,function (){
+			ph.style.opacity = 1;
+			})
+		},100)
+	}
+sil();	
+	}
+</script>
+
+</head>
+
+<body>
+<div id="int">
+	<div id="nav">
+    	<div class="nav_f">
+            <ul class="list">
+                <li><a class="active" href="#">information</a></li>
+                <li><a href="#">About me</a></li>
+                <li><a href="#">skill</a></li>
+                <li><a href="#">works</a></li>
+                <li><a href="#">final</a></li>
+            </ul>
+        </div>
+    </div>
+	<div class="photo">
+    	
+        <img id="ph" src="img/img.jpg">
+    </div>
+    <div class="inf">
+    	<ul>
+        	<li>Name: 钟娇</li>
+            <li>Tel: 18720995442</li>
+            <li>E-mail: 1399053408@qq.com</li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
