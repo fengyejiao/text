@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+body,h1,h2,h3,h4,h5,p,ul,input,dl,dt,dd,select{ margin:0; padding:0;}
+li{ list-style:none;}
+a{ text-decoration:none; color:#0FF;}
+img{ border:none;}
+
+
+body{ background:#000; font-size:18px; font-family:"微软雅黑";}
+#int{ margin:0 auto;}
+#nav{ margin:20px auto; height:30px; text-align:center;}
+.nav_f{ margin:0 auto; height:30px; }
+.list{ height:30px; overflow:hidden; clear:both; text-align:center;}
+.list li{ float:left; margin:0 5px;}
+.list li a{ text-align:center; padding:0 20px; background:#FC3; font-size:18px; font-family:"Arial Black", Gadget, sans-serif; line-height:30px;}
+.list li a:hover{ background:#03C; color:#FFF;}
+.list .active{ background:#FF6;}
+
+
+.photo,.inf{ margin:30px auto 0; text-align:center;}
+.photo img{width:200px; margin:20px auto; opacity:0;}
+
+
+.inf li{ color:#0CF; font-size:22px; line-height:40px;}
